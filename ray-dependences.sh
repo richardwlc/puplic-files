@@ -12,7 +12,8 @@ else
     git clone https://github.com/ray-project/ray.git
     cd ray/
 fi
-git checkout d6af50785e2903d69c7809f019f7ea555f9f2688
+# 08/25
+git checkout dbba7f2a53f45ea80321bca7c99492f44efd75f7
 cd python
 pip3 install -e . --verbose
 
