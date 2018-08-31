@@ -14,4 +14,4 @@ atari-a3c-breakoutdeterministic-lr:
         num_envs_per_worker: 1
         optimizer:
             grads_per_step: 1000
-" >> atari-a3c-breakoutdeterministic-lr.yaml
+" > atari-a3c-breakoutdeterministic-lr.yaml
