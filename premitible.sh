@@ -9,8 +9,8 @@ atari-a3c-breakoutdeterministic-lr:
         preprocessor_pref: deepmind
         lr:
             grid_search:
-				- 0.0001
-				- 0.0005
+                - 0.0001
+                - 0.0005
         num_envs_per_worker: 1
         optimizer:
             grads_per_step: 1000
