@@ -15,3 +15,7 @@ atari-a3c-breakoutdeterministic-lr:
         optimizer:
             grads_per_step: 1000
 " > atari-a3c-breakoutdeterministic-lr.yaml
+#
+wget https://raw.githubusercontent.com/richardwlc/puplic-files/master/ray-dependences.sh
+bash ray-dependences.sh
+python3 ~/.local/lib/python3.5/site-packages/ray/python/ray/rllib/train.py -f atari-a3c-breakoutdeterministic-lr.yaml
